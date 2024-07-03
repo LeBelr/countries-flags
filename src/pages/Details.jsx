@@ -21,7 +21,7 @@ export const Details = () => {
     return () => {
       dispatch(clearDetails());
     }
-  }, [name], dispatch)
+  }, [name, dispatch])
 
   return (
     <div>
